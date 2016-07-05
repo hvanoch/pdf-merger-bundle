@@ -5,7 +5,9 @@
   "keywords": [
     "symfony",
     "pdf",
-    "merge"
+    "merge",
+    "ghostscript",
+    "gs"
   ],
   "type": "library",
   "authors": [
