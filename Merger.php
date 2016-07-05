@@ -221,7 +221,7 @@ class Merger
         $filename = $dir . DIRECTORY_SEPARATOR . uniqid('hvanoch_pdf_merger', true);
 
         $this->temporaryFiles[] = $filename;
-        dump($filename);
+
         return $filename;
     }
 
