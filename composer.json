@@ -1,0 +1,29 @@
+{
+  "name": "hvanoch/pdf-merger-bundle",
+  "type": "symfony-bundle",
+  "description": "",
+  "keywords": [
+    "symfony",
+    "pdf",
+    "merge"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Henne Van Och",
+      "email": "henne.van.och@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/framework-bundle": "~2.3"
+  },
+  "autoload": {
+    "psr-4": {"Hvanoch\\Bundle\\PdfMergerBundle\\": ""}
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.1-dev"
+    }
+  }
+}

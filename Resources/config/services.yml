@@ -1,0 +1,4 @@
+services:
+    hvanoch_pdf_merger:
+        class: Hvanoch\Bundle\PdfMergerBundle\Merger
+        arguments: [%hvanoch_pdf_merger.binary%]
